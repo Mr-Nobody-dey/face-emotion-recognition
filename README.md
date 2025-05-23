@@ -3,6 +3,8 @@
 [![pypi package](https://img.shields.io/badge/version-v1.0-blue)]([https://pypi.org/project/emotiefflib](https://pypi.org/project/emotiefflib/))
 [![License](https://img.shields.io/pypi/l/emotiefflib)](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/LICENSE)
 [![Downloads](https://static.pepy.tech/personalized-badge/emotiefflib?period=total&units=international_system&left_color=grey&right_color=blue&left_text=pip%20installs)](https://pepy.tech/project/emotiefflib)
+[![Downloads](https://static.pepy.tech/personalized-badge/hsemotion?period=total&units=international_system&left_color=grey&right_color=blue&left_text=pip%20installs)](https://pepy.tech/project/hsemotion)
+[![Downloads](https://static.pepy.tech/personalized-badge/hsemotion-onnx?period=total&units=international_system&left_color=grey&right_color=blue&left_text=pip%20installs)](https://pepy.tech/project/hsemotion-onnx)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/classifying-emotions-and-engagement-in-online/facial-expression-recognition-on-affectnet)](https://paperswithcode.com/sota/facial-expression-recognition-on-affectnet?p=classifying-emotions-and-engagement-in-online)
 [![GitHub stars](https://img.shields.io/github/stars/sb-ai-lab/emotiefflib.svg?style=social&label=Star&maxAge=8640)](https://github.com/sb-ai-lab/emotiefflib/stargazers/)
 
