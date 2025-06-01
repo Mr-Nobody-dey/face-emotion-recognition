@@ -15,12 +15,12 @@ To run the examples locally you need to do the following:
   ```
   pip install -r requirements.txt
   ```
-1. Build [EmotiEffCppLib](../../../emotieffcpplib) with Libtorch and ONNXRuntime. It is important to
+2. Build [EmotiEffCppLib](../../../emotieffcpplib) with Libtorch and ONNXRuntime. It is important to
    build EmotiEffCppLib with flag: `-DBUILD_TESTS=ON` because we need
    to reuse one library which builds for tests. Also, it is required to build
    EmotiEffCppLib with flag: `-DBUILD_SHARED_LIBS=ON` because xeus-cling works
    only with shared libraries.
-2. Install [xeus-cling](https://github.com/jupyter-xeus/xeus-cling). Instruction how to build xeus-cling can be found [here](https://xeus-cling.readthedocs.io/en/latest/installation.html).
+3. Install [xeus-cling](https://github.com/jupyter-xeus/xeus-cling). Instruction how to build xeus-cling can be found [here](https://xeus-cling.readthedocs.io/en/latest/installation.html).
 
   After installing xeus-cling, you should be able to check available kernels and see `xcpp17` kernel:
   ```
@@ -31,14 +31,14 @@ To run the examples locally you need to do the following:
     xcpp14     /opt/anaconda3/envs/emotiefflib/share/jupyter/kernels/xcpp14
     xcpp17     /opt/anaconda3/envs/emotiefflib/share/jupyter/kernels/xcpp17
   ```
-3. Prepare models for cpp runtime:
+4. Prepare models for cpp runtime:
   ```
   python3 <EmotiEffLib_root>/models/prepare_models_for_emotieffcpplib.py
   ```
-4. Download and unpack test data:
+5. Download and unpack test data:
   ```
   cd <EmotiEffLib_root>/tests
   ./download_test_data.sh
   tar -xzf data.tar.gz
   ```
-5. Run jupyter notebook and select C++ kernel.
+6. Run jupyter notebook and select C++ kernel.
