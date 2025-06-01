@@ -1,2 +1,2 @@
 tensorflow
-tf2onnx
+tf2onnx==1.16.0

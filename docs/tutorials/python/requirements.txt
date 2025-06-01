@@ -9,7 +9,7 @@ onnxruntime
 opencv-python
 pillow
 tensorflow
-tf2onnx
+tf2onnx==1.16.0
 timm==0.9.*
 torch
 torchvision
