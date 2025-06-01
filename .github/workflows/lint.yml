@@ -27,7 +27,7 @@ jobs:
         run: echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
 
       - name: Run Black
-        run: black --check .
+        run: black --check --diff .
 
       - name: Run isort
         run: isort --check-only --diff .
